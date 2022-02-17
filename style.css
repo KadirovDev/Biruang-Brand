@@ -5,7 +5,9 @@
     text-decoration: none;
     list-style: none;
 }
-
+body{
+    font-family: 'Roboto', sans-serif;
+}
 header nav{
     max-width: 1170px;
     margin: auto;
