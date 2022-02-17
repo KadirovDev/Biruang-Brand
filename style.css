@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+header nav{
+    max-width: 1170px;
+    margin: auto;
+}
+
+header .menu_title .nav_top .logo{
+    color: #67686d;
+    font-size: 23px;
+    font-weight: 400;
+}
+header .menu_title .nav_top{
+    display: flex;
+    justify-content:space-between ;
+    border-bottom: 1px solid #eeeeee;
+    padding: 23px 0;
+}
+header .menu_title .nav_top .nav_adres{
+    display: flex;
+    justify-content: space-between;
+}
+
+header .menu_title .nav_top .contact{
+    display: flex;
+    align-items: center;
+}
+.fa-phone-alt{
+    padding-right: 10px;
+}
+header .menu_title .nav_top .contact .number{
+    color: #7e7f84;
+    font-size: 15px;
+    font-weight: 700;
+    padding-right: 20px;
+    cursor: pointer;
+}
+.far{
+    padding-right: 8px;
+}
+header .menu_title .nav_top .contact .email{
+    color: #7e7f84;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-right: 140px;
+    cursor: pointer;
+}
+.fa-shopping-cart{
+    padding-right: 23px;
+    color: #7e7f84;
+}
+header .menu_title .nav_top .nav_adres .price{
+   border: 2px solid #eeeeee; 
+   padding: 8px 8px;
+   display: flex;
+   align-items: center;
+   transition: .4s;
+}
+header .menu_title .nav_top .nav_adres .price:hover{
+    background-color: #f39486;
+    color: white;
+}
+
+ header .menu_title nav .nav_bottom ul{
+     display: flex;
+ }
+ header .menu_title nav .nav_bottom ul li{
+     padding:15px 40px 15px 0;
+ }
+ .fa-search{
+     padding-right: 6px;
+ }
+ header .menu_title nav .nav_bottom ul li a{
+     color: #7e7f84;
+     font-weight: 500;
+     font-size: 14px;
+     transition: .5s;
+ }
+ header .menu_title nav .nav_bottom ul li a.active,
+ header .menu_title nav .nav_bottom ul li a:hover{
+     color: #f56954;
+     
+ }
