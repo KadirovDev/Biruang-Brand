@@ -164,3 +164,63 @@ main .about .main_top .main_top_box .box p{
     font-size: 14px;
     color: #7e7f84;
 }
+main .about .main_bottom{
+    margin-top: 65px;
+   width: 1170px;
+}
+main .about .main_bottom .main_bottom_box{
+    display: flex;
+    justify-content: space-between;
+}
+main .about .main_bottom h2{
+    padding-bottom: 43px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 23px;
+    color: #67686d;
+}
+main .about .main_bottom .main_bottom_box .bottom_box h3{
+    padding: 17px 0 12px 20px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #67686d;
+    text-transform: uppercase;
+}
+main .about .main_bottom .main_bottom_box .bottom_box h5 {
+    padding-left:20px;
+    font-size: 14px;
+    color: #67686d;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-style: italic;
+}
+main .about .main_bottom .main_bottom_box .bottom_box p{
+    padding:11px 20px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #67686d;
+    
+}
+main .about .main_bottom .main_bottom_box .bottom_box{
+    border: 2px solid #eeeeee;
+    width: 272px;
+}
+main .about .main_bottom .main_bottom_box .bottom_box .line{
+  padding-left: 20px;
+}
+main .about .main_bottom .main_bottom_box .bottom_box .bottom_price{
+    display: flex;
+    justify-content: space-between;
+}
+main .about .main_bottom .main_bottom_box .bottom_box .bottom_price ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 20px;
+    color: #7e7f84;
+}
+main .about .main_bottom .main_bottom_box .bottom_box .bottom_price p{
+    color: #f45a40;
+    font-weight: 500;
+    font-size: 15px;
+}
