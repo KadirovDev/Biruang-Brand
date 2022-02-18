@@ -128,3 +128,39 @@ header .head .container .btn:hover{
     background-color:#fc4322;
     color: #eeeeee;
 }
+/* =====Main start==== */
+ 
+main{
+    margin: 65px 0;
+}
+main .about{
+    max-width: 1170px;
+    margin: auto;
+}
+main .about .main_top{
+    display: flex;
+    justify-content: space-between;
+}
+main .about .main_top .main_top_box{
+    width: 370px;
+}
+main .about .main_top .main_top_box img{
+  max-width: 100%;  
+}
+main .about .main_top .main_top_box .box h2 {
+    padding: 25px 0;
+    font-weight: 500;
+    font-size: 23px;
+    transition: .4s;
+}
+main .about .main_top .main_top_box .box h2 a{
+   color: #f45a40;
+}
+main .about .main_top .main_top_box .box h2 a:hover{
+    text-decoration: underline;
+}
+main .about .main_top .main_top_box .box p{
+    font-weight: 400;
+    font-size: 14px;
+    color: #7e7f84;
+}
