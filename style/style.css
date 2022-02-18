@@ -95,3 +95,36 @@ header .menu_title .nav_top .nav_adres .price:hover{
      color: #f56954;
      
  }
+
+ header .head .container{
+    max-width: 1170px;
+    margin: auto;
+}
+header .head .container h1{
+    padding-top: 170px;
+    color: #ffffff;
+    font-size: 60px;
+    font-weight: 700;
+    padding-bottom: 25px;
+    
+}
+header .head .container p{
+    color: #c7c8c8;
+    font-size: 14px;
+    font-weight: 500;
+    padding-bottom: 28px;
+}
+header .head .container .btn{
+    border: none;
+    background-color: #f56954;
+    color: white;
+    padding: 15px 25px;
+    font-weight: 400;
+    font-size: 14px;
+    transition: .4s;
+    cursor: pointer;
+}
+header .head .container .btn:hover{
+    background-color:#fc4322;
+    color: #eeeeee;
+}
