@@ -8,6 +8,11 @@
 body{
     font-family: 'Roboto', sans-serif;
 }
+.head{ 
+    background: url('../images/header_jpg.jpg') no-repeat center center /cover;
+    height: 600px;
+   
+} 
 header nav{
     max-width: 1170px;
     margin: auto;
